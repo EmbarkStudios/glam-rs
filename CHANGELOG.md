@@ -7,6 +7,10 @@ The format is based on [Keep a Changelog], and this project adheres to
 
 ## [0.20.2] - 2021-12-20
 
+### Added
+
+* Added optional support for the `arbitrary` crate
+
 ### Fixed
 
 * Fixed SPIR-V build which was broken due to a typo.

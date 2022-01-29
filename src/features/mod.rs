@@ -15,3 +15,6 @@ pub mod impl_serde;
 
 #[cfg(feature = "rkyv")]
 pub mod impl_rkyv;
+
+#[cfg(feature = "arbitrary")]
+pub mod impl_arbitrary;

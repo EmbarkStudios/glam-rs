@@ -100,6 +100,7 @@ glam = { version = "0.20.2", default-features = false }
   `scalar-math` feature. It should work between all other builds of `glam`.
   Endian conversion is currently not supported
 * [`bytecheck`] - to perform archive validation when using the `rkyv` feature
+* [`arbitrary`] - implemntations of `Arbitrary` trait for all `glam` types. Useful for fuzz testing.
 
 [`approx`]: https://docs.rs/approx
 [`bytemuck`]: https://docs.rs/bytemuck
